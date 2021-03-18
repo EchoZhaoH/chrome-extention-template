@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "esnext",
+        "target": "es5",
+        "jsx": "react",
+        "noImplicitAny": true,
+        "baseUrl": ".",
+        "moduleResolution": "Node",
+        "paths": {
+            "@root/*": ["src/*"]
+        }
+    },
+    "include": [
+        "./src/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
